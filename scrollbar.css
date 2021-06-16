@@ -1,0 +1,30 @@
+/* scrollbar css*/
+::-webkit-scrollbar {
+    /*Width of vertical scroll bar*/
+    width: 5px;
+    /*Height of horizontal scroll bar*/
+    height: 5px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+
+    border-radius: 5px;
+    /*min-height: 40px;*/
+    background: #555;
+
+    /*     border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #263c58;
+}
